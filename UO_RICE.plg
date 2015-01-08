@@ -1,0 +1,86 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: UO_RICE - Win32 Release--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Erstellen der temporären Datei  "C:\DOKUME~1\nick\LOKALE~1\Temp\RSP94.tmp" mit Inhalten
+[
+/nologo /G6 /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/UO_RICE.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"U:\source_codes\UO_RICE\mini_flex.cpp"
+"U:\source_codes\UO_RICE\UO_RICE.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\nick\LOKALE~1\Temp\RSP94.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\nick\LOKALE~1\Temp\RSP95.tmp" mit Inhalten
+[
+/nologo /G6 /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/UO_RICE.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"U:\source_codes\UO_RICE\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\nick\LOKALE~1\Temp\RSP95.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\nick\LOKALE~1\Temp\RSP96.tmp" mit Inhalten
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/UO_RICE.pdb" /machine:I386 /out:"Release/UO_RICE.exe" 
+.\Release\mini_flex.obj
+.\Release\StdAfx.obj
+.\Release\UO_RICE.obj
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\nick\LOKALE~1\Temp\RSP96.tmp"
+<h3>Ausgabefenster</h3>
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+mini_flex.cpp
+UO_RICE.cpp
+Generieren von Code...
+Linker-Vorgang läuft...
+
+
+
+<h3>Ergebnisse</h3>
+UO_RICE.exe - 0 Fehler, 0 Warnung(en)
+<h3>
+--------------------Konfiguration: UO_RICE - Win32 Debug--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Erstellen der temporären Datei  "C:\DOKUME~1\nick\LOKALE~1\Temp\RSP98.tmp" mit Inhalten
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/UO_RICE.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"U:\source_codes\UO_RICE\mini_flex.cpp"
+"U:\source_codes\UO_RICE\UO_RICE.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\nick\LOKALE~1\Temp\RSP98.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\nick\LOKALE~1\Temp\RSP99.tmp" mit Inhalten
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/UO_RICE.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"U:\source_codes\UO_RICE\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\nick\LOKALE~1\Temp\RSP99.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\nick\LOKALE~1\Temp\RSP9A.tmp" mit Inhalten
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/UO_RICE.pdb" /debug /machine:I386 /out:"Debug/UO_RICE.exe" /pdbtype:sept 
+.\Debug\mini_flex.obj
+.\Debug\StdAfx.obj
+.\Debug\UO_RICE.obj
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\nick\LOKALE~1\Temp\RSP9A.tmp"
+<h3>Ausgabefenster</h3>
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+mini_flex.cpp
+UO_RICE.cpp
+Generieren von Code...
+Linker-Vorgang läuft...
+Erstellen der Befehlzeile "bscmake.exe /nologo /o"Debug/UO_RICE.bsc"  .\Debug\StdAfx.sbr .\Debug\mini_flex.sbr .\Debug\UO_RICE.sbr"
+Browse-Informationsdatei wird erstellt...
+<h3>Ausgabefenster</h3>
+
+
+
+<h3>Ergebnisse</h3>
+UO_RICE.exe - 0 Fehler, 0 Warnung(en)
+</pre>
+</body>
+</html>
